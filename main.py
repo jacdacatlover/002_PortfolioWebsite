@@ -9,6 +9,11 @@ with col1:
 
 with col2:
     st.title("Jacqueline Ng")
-    content="""I am Jacqueline. I am a project manager in a financial institution and also a freelance programmer on python.
+    content = """I am Jacqueline. I am a project manager in a financial institution and also a freelance programmer on python.
     """
     st.info(content)
+
+content2 = """Below you can find some apps I build in Python. 
+Feel free to contact me!"""
+
+st.write(content2)
